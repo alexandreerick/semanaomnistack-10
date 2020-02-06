@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './SideBar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -37,7 +38,55 @@ function App() {
         </form>
       </aside>
       <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/38448495?v=4" alt="Erick"/>
+              <div className="user-info">
+                <strong>Erick Alexandre</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>CTO na @Vambrace. Aficcionado por techs bem locas.</p>
+            <a href="https://github.com/alexandreerick">Acessar perfil no Github</a>
+          </li>
 
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/38448495?v=4" alt="Erick"/>
+              <div className="user-info">
+                <strong>Erick Alexandre</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>CTO na @Vambrace. Aficcionado por techs bem locas.</p>
+            <a href="https://github.com/alexandreerick">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/38448495?v=4" alt="Erick"/>
+              <div className="user-info">
+                <strong>Erick Alexandre</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>CTO na @Vambrace. Aficcionado por techs bem locas.</p>
+            <a href="https://github.com/alexandreerick">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/38448495?v=4" alt="Erick"/>
+              <div className="user-info">
+                <strong>Erick Alexandre</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>CTO na @Vambrace. Aficcionado por techs bem locas.</p>
+            <a href="https://github.com/alexandreerick">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
